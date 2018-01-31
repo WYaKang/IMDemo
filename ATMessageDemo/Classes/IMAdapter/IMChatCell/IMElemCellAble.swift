@@ -15,11 +15,11 @@ public protocol IMElemCellAble: class {
     
     // 配置及显示
     weak var message: IMAdapterMessage? { get set }
-    func config(message: IMAdapterMessage)
+    func config(aMsg: IMAdapterMessage)
     
     // 显示Menu
     var canShowMenu: Bool { get set }
-    var showMenuItems: Array<Any> { get set }
+    var showMenuItems: Array<UIMenuItem> { get set }
     func canShowMenuOnTouchOf(ges: UIGestureRecognizer) -> Bool
     func showMenu()
 }

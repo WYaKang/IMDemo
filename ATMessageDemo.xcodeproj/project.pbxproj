@@ -16,9 +16,14 @@
 		A44A9604200C8B6000619AA7 /* ATMessageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A9603200C8B6000619AA7 /* ATMessageDemoUITests.swift */; };
 		A44A961A200CA2FD00619AA7 /* ATMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A9619200C9E3F00619AA7 /* ATMessageType.swift */; };
 		A44A961B200CA2FD00619AA7 /* IMMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A9618200C8C3100619AA7 /* IMMessageModel.swift */; };
-		A44A961E200CE27000619AA7 /* IMElemBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A961D200CE27000619AA7 /* IMElemBaseTableViewCell.swift */; };
-		A44A9620200CE2D700619AA7 /* IMElemCellAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A961F200CE2D700619AA7 /* IMElemCellAble.swift */; };
 		A44A9622200CE45400619AA7 /* IMAdapterMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A9621200CE45400619AA7 /* IMAdapterMessage.swift */; };
+		A44DE2B3200E1FE80026CA92 /* IMElemCellSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DE2B2200E1FE80026CA92 /* IMElemCellSetting.swift */; };
+		A44DE2B5200E29350026CA92 /* IMAdapterUserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DE2B4200E29350026CA92 /* IMAdapterUserType.swift */; };
+		A44DE2B7200E3CFE0026CA92 /* IMAdapterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DE2B6200E3CFE0026CA92 /* IMAdapterUser.swift */; };
+		A44DE2B9200E3F4E0026CA92 /* IMAPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DE2B8200E3F4E0026CA92 /* IMAPlatform.swift */; };
+		A4BCD917201CB4000018A84A /* IMElemBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCD915201CB3FF0018A84A /* IMElemBaseTableViewCell.swift */; };
+		A4BCD918201CB4000018A84A /* IMElemCellAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCD916201CB3FF0018A84A /* IMElemCellAble.swift */; };
+		A4BCD91C201CB4C20018A84A /* IMChatBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCD91B201CB4C20018A84A /* IMChatBaseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +59,14 @@
 		A44A9605200C8B6000619AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44A9618200C8C3100619AA7 /* IMMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMMessageModel.swift; sourceTree = "<group>"; };
 		A44A9619200C9E3F00619AA7 /* ATMessageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMessageType.swift; sourceTree = "<group>"; };
-		A44A961D200CE27000619AA7 /* IMElemBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMElemBaseTableViewCell.swift; sourceTree = "<group>"; };
-		A44A961F200CE2D700619AA7 /* IMElemCellAble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMElemCellAble.swift; sourceTree = "<group>"; };
 		A44A9621200CE45400619AA7 /* IMAdapterMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAdapterMessage.swift; sourceTree = "<group>"; };
+		A44DE2B2200E1FE80026CA92 /* IMElemCellSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMElemCellSetting.swift; sourceTree = "<group>"; };
+		A44DE2B4200E29350026CA92 /* IMAdapterUserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAdapterUserType.swift; sourceTree = "<group>"; };
+		A44DE2B6200E3CFE0026CA92 /* IMAdapterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAdapterUser.swift; sourceTree = "<group>"; };
+		A44DE2B8200E3F4E0026CA92 /* IMAPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAPlatform.swift; sourceTree = "<group>"; };
+		A4BCD915201CB3FF0018A84A /* IMElemBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMElemBaseTableViewCell.swift; sourceTree = "<group>"; };
+		A4BCD916201CB3FF0018A84A /* IMElemCellAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMElemCellAble.swift; sourceTree = "<group>"; };
+		A4BCD91B201CB4C20018A84A /* IMChatBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMChatBaseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +170,7 @@
 			children = (
 				A44A9618200C8C3100619AA7 /* IMMessageModel.swift */,
 				A44A9621200CE45400619AA7 /* IMAdapterMessage.swift */,
+				A44DE2B6200E3CFE0026CA92 /* IMAdapterUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +178,8 @@
 		A44A9616200C8C2000619AA7 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				A44DE2B2200E1FE80026CA92 /* IMElemCellSetting.swift */,
+				A44DE2B4200E29350026CA92 /* IMAdapterUserType.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -174,10 +187,20 @@
 		A44A961C200CE21000619AA7 /* IMAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				A44A961D200CE27000619AA7 /* IMElemBaseTableViewCell.swift */,
-				A44A961F200CE2D700619AA7 /* IMElemCellAble.swift */,
+				A4BCD914201CB3FF0018A84A /* IMChatCell */,
+				A44DE2B8200E3F4E0026CA92 /* IMAPlatform.swift */,
 			);
 			path = IMAdapter;
+			sourceTree = "<group>";
+		};
+		A4BCD914201CB3FF0018A84A /* IMChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				A4BCD916201CB3FF0018A84A /* IMElemCellAble.swift */,
+				A4BCD915201CB3FF0018A84A /* IMElemBaseTableViewCell.swift */,
+				A4BCD91B201CB4C20018A84A /* IMChatBaseTableViewCell.swift */,
+			);
+			path = IMChatCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,12 +338,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44A961A200CA2FD00619AA7 /* ATMessageType.swift in Sources */,
+				A44DE2B3200E1FE80026CA92 /* IMElemCellSetting.swift in Sources */,
 				A44A961B200CA2FD00619AA7 /* IMMessageModel.swift in Sources */,
+				A44DE2B5200E29350026CA92 /* IMAdapterUserType.swift in Sources */,
+				A44DE2B9200E3F4E0026CA92 /* IMAPlatform.swift in Sources */,
 				A44A9622200CE45400619AA7 /* IMAdapterMessage.swift in Sources */,
 				A44A95E6200C8B5F00619AA7 /* ViewController.swift in Sources */,
+				A4BCD918201CB4000018A84A /* IMElemCellAble.swift in Sources */,
+				A4BCD91C201CB4C20018A84A /* IMChatBaseTableViewCell.swift in Sources */,
+				A44DE2B7200E3CFE0026CA92 /* IMAdapterUser.swift in Sources */,
 				A44A95E4200C8B5F00619AA7 /* AppDelegate.swift in Sources */,
-				A44A9620200CE2D700619AA7 /* IMElemCellAble.swift in Sources */,
-				A44A961E200CE27000619AA7 /* IMElemBaseTableViewCell.swift in Sources */,
+				A4BCD917201CB4000018A84A /* IMElemBaseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

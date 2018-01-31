@@ -172,7 +172,6 @@ public class IMGroupTipsElemGroupInfo {
 
 /// 群Tips
 public class IMGroupTipsElem: IMElemType {
-    
 }
 
 /// 群系统消息
@@ -225,9 +224,3 @@ public class IMMessage {
         return elemArray.first
     }
 }
-
-
-
-
-
-

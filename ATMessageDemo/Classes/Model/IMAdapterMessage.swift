@@ -71,4 +71,16 @@ public class IMAdapterMessage {
     var isGroupMessage: Bool {
         return message.conversationType == .group
     }
+    
+    /// 消息发送者
+    var sender: IMAdapterUser {
+        let user = IMAdapterUser(id: message.senderId.description)
+        return user
+//        if message.conversationType == .personal {
+//        } else if message.conversationType == .group {
+//            let user = IMAdapterUser(id: message.senderId.description)
+//            return user
+//        }
+    }
+    
 }
